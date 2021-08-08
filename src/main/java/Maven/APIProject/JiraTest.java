@@ -65,7 +65,11 @@ public class JiraTest {
 	if(commentIDIssue.equalsIgnoreCase(commentid)) {
 		String message = js.get("fields.comment.comments["+i+"].body").toString();
 		System.out.println(message);
-	Assert.assertEquals(message, expectedMessage);
+		
+		System.out.println("check messgae for git 01");
+		System.out.println("check messgae for git 02");
+		
+		Assert.assertEquals(message, expectedMessage);
 	}
 	}
 	}

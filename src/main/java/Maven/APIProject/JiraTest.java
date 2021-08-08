@@ -69,6 +69,9 @@ public class JiraTest {
 		System.out.println("check messgae for git 01");
 		System.out.println("check messgae for git 02");
 		
+		System.out.println("check messgae for git 03: gitx");
+		System.out.println("check messgae for git 03: gitx");
+		
 		Assert.assertEquals(message, expectedMessage);
 	}
 	}
